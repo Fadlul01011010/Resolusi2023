@@ -35,7 +35,15 @@ git branch -d namaBrach -> menghapus branch yang sudah di merge
 git merge namaBrach -> memerge dua brach tapi kita harus ke branch master dulu
 git log => mengecek commit uang sudah pernah dilakukan
 git branch --merged => mengecek branch yang sudah di merge
-alia graph="git log --all --decorate --oneline --graph" => membuat shortcat atau alias untuk halaman graph
+alias graph="git log --all --decorate --oneline --graph" => membuat shortcat atau alias untuk halaman graph
+git commit -am "pesan" => digunakan jika ada file yang tidak berstatus modified
+
+7. jika ada conflic
+=> kondisi ketika ada perubahan baris yang sama maka kita harus memilih salah satu untuk bisa me merge branch 
+
+8. git remote
+
+
 
 
 
