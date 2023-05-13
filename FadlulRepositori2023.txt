@@ -3,3 +3,41 @@ Fadlullah
 - bismilah
 - sukses
 - terus belajar
+
+Rangkuman Belajar Git dari Pak Sandhika
+1. git untuk melihat apakah sudah terinstall
+2. 
+$ git ini
+$ git add <file(s)>
+git status
+git commit
+git config
+git branch
+
+3 are 
+  working tree - halaman kerja kita(kita nyimpen file)
+  staging area - perubahan di simpan disini
+  History - jika ok lakukan simpan disini
+  
+  
+4. 
+git => mengecek apakah sudah ke install git atau tidak
+pwd - menemukan lokasi kita
+git init -> merubah repo manjadi file init atau file git
+git status -> mengecek apakah ada yang perlu di masukkan ke staging area
+git add namaFIle -> memasukkan file ke staging area
+git add . -> memasukkan seluruh file ke staging area
+git commit -m "pesan" -> melakukan commit
+git branch -> menampilkan branch yang ada
+git brach namaBranch -> membuat branch baru
+git checkout namaBrach -> pindah ke branch yang lain
+git branch -d namaBrach -> menghapus branch yang sudah di merge
+git merge namaBrach -> memerge dua brach tapi kita harus ke branch master dulu
+git log => mengecek commit uang sudah pernah dilakukan
+git branch --merged => mengecek branch yang sudah di merge
+alia graph="git log --all --decorate --oneline --graph" => membuat shortcat atau alias untuk halaman graph
+
+
+
+ 
+
